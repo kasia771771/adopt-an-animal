@@ -15,10 +15,10 @@ Adopt an animal - the project is a collection of pets to adopt. You can add an a
 Project is created with:
 
 - React version 18.0.0
-- React Router 6.3.0
-- React Scroll 1.8.7
-- Sass 1.50.0
-- Firebase 9.8.1
+- React version Router 6.3.0
+- React Scroll version 1.8.7
+- Sass version 1.50.0
+- Firebase version 9.8.1
 - Uid 2.0.0
 
 ## Setup
