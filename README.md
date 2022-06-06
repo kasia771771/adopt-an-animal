@@ -9,9 +9,6 @@
 Adopt an animal - the project is a collection of pets to adopt. You can add an animal to adoption or find a home for it. You can also find temporary care for pets or be a keeper. The website is fully designed by me and still in progress.
 
 ![Screenshot_1](./src/assets/web_screenshot_1.png)
-![Screenshot_2](./src/assets/web_screenshot_2.png)
-![Screenshot_3](./src/assets/web_screenshot_3.png)
-![Screenshot_4](./src/assets/web_screenshot_4.png)
 
 ## Technologies
 
