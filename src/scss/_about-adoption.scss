@@ -1,0 +1,48 @@
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+  .about-adoption {
+    background: $darker-gradient, url("../assets/are-you-ready.jpg");
+    width: 100%;
+    height: 850px;
+    background-position: 62%;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+
+    &__content {
+      width: 500px;
+      height: 220px;
+      margin-left: 120px;
+      color: $color-white;
+
+      .title {
+        font-weight: 600;
+        font-size: 3.5em;
+        margin-bottom: 20px;
+      }
+
+      .paragraph {
+        margin-bottom: 60px;
+        width: 400px;
+        font-size: 1.125em;
+        line-height: 1.5em;
+        margin-bottom: 60px;
+      }
+
+      .button__CTA {
+        background-color: $color-light-blue;
+        padding: 12px 48px;
+        border-radius: 50px;
+        color: $color-white;
+        font-weight: 600;
+        font-size: 1.125em;
+        max-width: 100px;
+        text-decoration: none;
+      }
+      .button__CTA:hover {
+        background-color: $color-buttons;
+        color: $color-white;
+        transition: ease-in 0.2s;
+      }
+    }
+  }
+}

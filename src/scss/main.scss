@@ -1,0 +1,17 @@
+@import "./settings/reset"; // <- reset
+@import "./settings/fonts.scss"; // <- fonts
+@import "./settings/colors.scss";// <-colors
+@import "./settings/base.scss"; // <- variables / mixins
+
+
+// landing page
+@import "header.scss"; // <- header section
+@import "navigation.scss"; // <- navigation section
+@import "about.scss"; // <- about site
+@import "about-adoption.scss"; // <- are you ready for adoption
+@import "adopt-count.scss"; // <- are you ready for adoption
+@import "footer.scss"; // <- footer
+@import "adoption-page.scss"; // <- adoption page
+@import "find-home-page.scss"; // <- find home page
+@import "adoption-cards.scss"; // <- find home page
+@import "care.scss"; // <- find home page

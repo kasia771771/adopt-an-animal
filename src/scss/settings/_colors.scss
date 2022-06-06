@@ -1,0 +1,37 @@
+// colors
+$color-buttons: #166694;
+$color-blue-header: #183b4f;
+$color-blue-text: #1c4962;
+$color-white: #ecebed;
+$color-gray: #dfdfdf;
+$color-light-blue: #428cb6;
+$color-lighter-blue: #6bc2f5;
+
+// gradients
+
+$gradient-photo: linear-gradient(
+  180deg,
+  rgba(43, 95, 124, 0.2) 0%,
+  rgba(43, 95, 124, 0.4) 100%
+);
+$hero-gradient: linear-gradient(
+  180.53deg,
+  rgba(43, 95, 124, 0.21) -24.16%,
+  rgba(24, 59, 79, 0.52) 99.1%
+);
+$darker-gradient: linear-gradient(
+  180.53deg,
+  rgba(43, 95, 124, 0.21) -24.16%,
+  rgba(14, 53, 75, 0.63) 99.1%
+);
+$blue-gradient: linear-gradient(114.19deg, #1c4962 -18.09%, #428cb6 128%);
+$border-gradient: linear-gradient(
+  230deg,
+  rgba(239, 249, 255, 0.53687412464986) 0%,
+  rgba(240, 250, 255, 0.7329525560224089) 100%
+);
+
+// shadow
+
+$shadow-dark: 0px 0px 23px 0px rgba(22, 64, 88, 1);
+$shadow-light: 0px 0px 10px 0px rgb(190, 190, 190);

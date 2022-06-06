@@ -1,0 +1,80 @@
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+  .footer {
+    background-color: $color-blue-text;
+    color: $color-white;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    gap: 24px;
+    .footer-rows {
+        height: 80px;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: space-around;
+        margin: 0 auto;
+      &__first {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .logotype {
+          display: flex;
+          align-items: center;
+          color: $color-white;
+          text-decoration: none;
+          gap: 12px;
+          .logo {
+            font-size: 1.5em;
+          }
+          .type {
+            font-size: 1.125em;
+            text-transform: uppercase;
+            font-weight: 700;
+          }
+        }
+        .navigation__list {
+          display: flex;
+          gap: 16px;
+          .item a {
+            color: $color-white;
+            text-decoration: none;
+            font-size: 1em;
+            font-weight: 500;
+          }
+        }
+      }
+
+      &__second {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .policy {
+          font-size: 1.125em;
+          font-weight: 400;
+          color: $color-white;
+        }
+        .social-media {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          gap:16px;
+          &__icons {
+            display: flex;
+            gap: 32px;
+            .fa-brands {
+              color: $color-white;
+              font-size: 2.5em;
+            }
+          }
+
+          &__paragraph {
+            font-size: 1.125em;
+            font-weight: 700;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,98 @@
+.care-header {
+    width: 100%;
+    height:812px;
+    background: $hero-gradient, url("../assets/care-bg.jpg");
+    background-position:67% 0%;
+    background-size:cover;
+    position:absolute;
+    z-index:-1;
+    top:0;
+    left:0;
+
+}
+
+// .form-wrapper-care {
+//     margin-top:780px;
+//     display:flex;
+//     justify-content:center;
+//     flex-direction:column;
+//     align-items:center;
+//     background-color:white;
+// }
+
+.date-input {
+    background-color:$color-light-blue;
+    color:$color-white;
+    border:transparent;
+    padding:10px;
+    border-radius:5px;
+    margin:30px 10px;
+    margin-top:20px;
+    font-family:$main-font;
+}
+
+.date-label {
+    color:$color-light-blue;
+    font-weight:700;
+}
+
+.care-btn {
+    border: 3px solid $color-buttons;
+    padding: 10px 20px;
+    width:180px;
+    background-color:transparent;
+    border-radius:50px;
+    color:$color-buttons;
+    font-weight: 900;
+    font-size: 1.125em;
+    text-decoration:none;
+    margin-top:70px;
+}
+
+.care-btn:hover {
+     background-color:$color-buttons;
+     color:$color-white;
+     transition:0.1s;
+}
+
+.date-info {
+    color:$color-blue-header;
+
+
+        span {
+        font-weight:700;
+        margin-bottom:10px;
+        }
+}
+
+.submit-button-care {
+    border:transparent;
+    padding: 12px 60px;
+    width:300px;
+    background-color:$color-light-blue;
+    border-radius:50px;
+    color:$color-white;
+    font-weight: 900;
+    font-size: 1em;
+    max-width:339px;
+    text-decoration:none;
+    margin-bottom:60px;
+
+    .submit-button-care:hover{
+        background-color:$color-buttons;
+    }
+}
+
+.care-title {
+    font-size:1.5em;
+    text-align:center;
+    font-weight:700;
+    margin:40px;
+    color:$color-blue-header;
+}
+
+.adoption-cards-care {
+    margin-top:900px;
+    margin-bottom:60px;
+    width:100%;
+}

@@ -1,0 +1,63 @@
+.adoption-header {
+  width: 100%;
+  height: 812px;
+  background: $hero-gradient, url("../assets/adoption-app.jpg");
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+
+  .adoption-header-content {
+    margin-top: 500px;
+  }
+
+  .adoption-header-title {
+    font-size: 2.25em;
+    font-weight: 900;
+    color: $color-white;
+    margin-bottom: 10px;
+  }
+
+  .adoption-header-text {
+    font-size: 1.125em;
+    font-weight: 400;
+    color: $color-white;
+    margin-bottom: 60px;
+    width: 300px;
+    line-height: 1.4em;
+  }
+
+  .adoption-filter {
+    margin-top: 800px;
+  }
+
+  .adoption-filter-form label,
+  .adoption-filter-title {
+    font-size: 1.5em;
+    font-weight: 700;
+    color: $color-blue-header;
+  }
+
+  .adoption-filter-form label {
+    margin-bottom: 20px;
+  }
+
+  .adoption-filter-form select {
+    margin-left: 20px;
+    padding: 8px 12px;
+    background-color: transparent;
+    border-color: transparent;
+    border-bottom: 2px solid $color-light-blue;
+    color: $color-light-blue;
+    font-weight: 700;
+    cursor: pointer;
+    margin-bottom: 60px;
+  }
+
+  .adoption-filter-form {
+    margin-top: 40px;
+    display: flex;
+  }
+}

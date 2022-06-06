@@ -1,0 +1,103 @@
+//mobile
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .about {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    &__article {
+      margin-bottom: 120px;
+      display: flex;
+      flex-direction: column;
+      gap:20px;
+      .photo {
+        width: 360px;
+        height: 240px;
+        border-radius: 16px;
+        object-fit: cover;
+      }
+      .content {
+        display: flex;
+        flex-direction: column;
+        max-width:340px;
+        gap:30px;
+
+        .title {
+          font-size: 2.25em;
+          color: $color-blue-header;
+          font-weight: 700;
+        }
+        .paragraph {
+          font-size: 1.125em;
+          color: $color-blue-text;
+          font-weight: 400;
+          line-height: 1.2em;
+        }
+        .button__secondary {
+          color: $color-buttons;
+          text-decoration: none;
+          font-size: 1.125em;
+          font-weight: 400;
+        }
+        .fa-chevron-right {
+          color: $color-buttons;
+          margin-left: 20px;
+        }
+      }
+      
+    }
+    .column-reverse {
+      flex-direction: column-reverse;
+    }
+  }
+}
+
+//desktop
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+  .about {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    &__article {
+      margin-bottom: 120px;
+      display: flex;
+      justify-content: space-around;
+      .photo {
+        width: 460px;
+        height: 300px;
+        border-radius: 16px;
+        object-fit: cover;
+      }
+      .content {
+        display: flex;
+        flex-direction: column;
+        max-width:340px;
+
+        .title {
+          font-size: 2.25em;
+          color: $color-blue-header;
+          font-weight: 700;
+          margin-bottom: 20px;
+        }
+        .paragraph {
+          font-size: 1.125em;
+          color: $color-blue-text;
+          font-weight: 400;
+          margin-bottom: 60px;
+          line-height: 1.2em;
+        }
+        .button__secondary {
+          color: $color-buttons;
+          text-decoration: none;
+          font-size: 1.125em;
+          font-weight: 400;
+        }
+        .fa-chevron-right {
+          color: $color-buttons;
+          margin-left: 20px;
+        }
+      }
+    }
+  }
+}
